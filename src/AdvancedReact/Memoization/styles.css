@@ -1,0 +1,30 @@
+button {
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  width: fit-content;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: hsl(150, 50%, 50%);
+  color: white;
+}
+
+.wrapper {
+  margin: auto;
+}
+
+h1 {
+  width: fit-content;
+  margin: auto;
+}
+
+.component_wrapper {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+}

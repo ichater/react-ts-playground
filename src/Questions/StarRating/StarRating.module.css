@@ -1,0 +1,30 @@
+.test {
+  background-color: green;
+}
+
+.starIcon {
+  --icon-size: 32px;
+  height: var(--icon-size);
+  width: var(--icon-size);
+  cursor: pointer;
+}
+
+.starIconFilled {
+  fill: yellow;
+}
+
+.starContainer > button:hover:before,
+.starContainer > button:hover ~ button:before {
+  fill: yellow;
+  position: absolute;
+}
+
+.starContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}

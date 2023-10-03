@@ -1,0 +1,39 @@
+.btn {
+  cursor: pointer;
+  padding: 1rem;
+
+  border-radius: 15px;
+  color: white;
+}
+
+.danger {
+  background-color: hsl(0, 70%, 50%);
+}
+
+.confirm {
+  background-color: hsl(160, 50%, 50%);
+}
+
+.app_wrapper {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.child_wrapper {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: fit-content;
+}
+
+.btn_wrapper {
+  cursor: pointer;
+}

@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import Like from "./Questions/LikeBtn/Like";
+// import StarRating from "./Questions/StarRating/StarRating";
+// import Form from "./Ref/Form";
+// import AdvancedReact from "./AdvancedReact/ChildrenProps/App";
+// import Memoization from "./AdvancedReact/Memoization/App";
+import DebounceThrottle from "./AdvancedReact/DebounceThrottle/App";
+// import Context from "./AdvancedReact/Context/App";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DebounceThrottle />
     </div>
   );
 }

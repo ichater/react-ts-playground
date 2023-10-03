@@ -1,0 +1,22 @@
+.btn {
+  margin: 1rem;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: #888;
+  border: 1px solid #888;
+}
+
+.btn:hover {
+  border: 1px solid #f00;
+  color: #f00;
+}
+
+.liked {
+  color: white;
+  background-color: #f00;
+}
+
+.liked:hover {
+  color: white;
+}

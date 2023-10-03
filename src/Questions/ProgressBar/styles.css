@@ -1,0 +1,33 @@
+.wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 40%;
+  gap: 1rem;
+}
+
+.submit {
+  width: 5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.bar {
+  background-color: #ccc;
+  height: 8px;
+}
+
+.bar-contents {
+  background-color: green;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition-duration: 2000ms;
+  transition-property: transform;
+  transition-timing-function: linear;
+}
+
+.bar-contents--filled {
+  transform: scaleX(1);
+}
