@@ -4,13 +4,16 @@ import "./App.css";
 // import Form from "./Ref/Form";
 // import AdvancedReact from "./AdvancedReact/ChildrenProps/App";
 // import Memoization from "./AdvancedReact/Memoization/App";
-import DebounceThrottle from "./AdvancedReact/DebounceThrottle/App";
+// import DebounceThrottle from "./AdvancedReact/DebounceThrottle/App";
 // import Context from "./AdvancedReact/Context/App";
+// import Portals from "./AdvancedReact/UseLayout&Portals/App";
+import Memo from "./AdvancedReact/Memo/App";
 
 function App() {
   return (
     <div className="App">
-      <DebounceThrottle />
+      <Memo />
+      {/* <Portals /> */}
     </div>
   );
 }
